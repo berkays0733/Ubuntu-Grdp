@@ -5,7 +5,7 @@ on:
      auth:
         description: 'GRDP Authorization Code'
         required: true
-        default: 'DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AY0e-g73-dKYzX3ZUdUQpfQdX_vDXimqDA7c4iYpaIFh5oG14jURRnhqf_wXecVPWDtb4Q" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)'
+        default: 'DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AY0e-g4XRn4_6HCmko9BhPlMBOyjSa2rlUlY60JBDmdXHkqIjmJ64H0jMnVRxRzCa6S9mA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)'
 defaults:
   run:
     shell: bash
