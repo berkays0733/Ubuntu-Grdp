@@ -20,7 +20,6 @@ jobs:
          sudo bash -c 'echo "exec /etc/X11/Xsession /usr/bin/xfce4-session" > /etc/chrome-remote-desktop-session'
      
       # To Install different Environment replace their commands. by default it Install 'Ubuntu'
-      
       # Ubuntu default will take upto 6-7 min
       # sudo apt update && sudo apt install ubuntu-desktop
       
